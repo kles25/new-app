@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/new-app/static/css/main.e4655fed.css",
-    "main.js": "/new-app/static/js/main.ac5c28e5.js",
+    "main.css": "/new-app/static/css/main.c364d63f.css",
+    "main.js": "/new-app/static/js/main.8ba5521d.js",
     "static/media/icons_social_media.woff": "/new-app/static/media/icons_social_media.41ca0386fa37ea67a75d.woff",
     "static/media/chronosfer-demo.woff": "/new-app/static/media/chronosfer-demo.8fd12bfd57a3637a537b.woff",
     "static/media/space_age.woff": "/new-app/static/media/space_age.e40446741d33d380a7fd.woff",
     "index.html": "/new-app/index.html",
-    "main.e4655fed.css.map": "/new-app/static/css/main.e4655fed.css.map",
-    "main.ac5c28e5.js.map": "/new-app/static/js/main.ac5c28e5.js.map"
+    "main.c364d63f.css.map": "/new-app/static/css/main.c364d63f.css.map",
+    "main.8ba5521d.js.map": "/new-app/static/js/main.8ba5521d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4655fed.css",
-    "static/js/main.ac5c28e5.js"
+    "static/css/main.c364d63f.css",
+    "static/js/main.8ba5521d.js"
   ]
 }
