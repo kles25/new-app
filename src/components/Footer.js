@@ -9,8 +9,8 @@ function Footer() {
             <div className="home-logo">Les</div>
           </div>
           <div className="pages-col-7 footer-links-holder">
-            <nav><a href="">PRIVACY AND POLICY</a></nav>
-            <nav><a href="">TERMS AND CONDITIONS</a></nav>
+            {/* <nav><a href="">PRIVACY AND POLICY</a></nav>
+            <nav><a href="">TERMS AND CONDITIONS</a></nav> */}
             <nav><a href="/login">LOGIN</a></nav>
             <nav><a href="/signup">REGISTER</a></nav>
           </div>
