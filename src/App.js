@@ -19,7 +19,7 @@ function App() {
           <div className="home-container-fluid">
             <Header></Header>
             <Routes>
-              <Route exact path='/' element={<HomePage />} />
+              <Route path='/' element={<HomePage />} />
               <Route path='/about' element={<AboutPage />} />
               <Route path='/contact' element={<ContactPage />} />
               <Route path='/news' element={<NewsPage />} />
