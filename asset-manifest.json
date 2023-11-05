@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/new-app/static/css/main.8732a99e.css",
-    "main.js": "/new-app/static/js/main.8ba5521d.js",
+    "main.js": "/new-app/static/js/main.59164b08.js",
     "static/media/icons_social_media.woff": "/new-app/static/media/icons_social_media.41ca0386fa37ea67a75d.woff",
     "static/media/chronosfer-demo.woff": "/new-app/static/media/chronosfer-demo.8fd12bfd57a3637a537b.woff",
     "static/media/space_age.woff": "/new-app/static/media/space_age.e40446741d33d380a7fd.woff",
     "index.html": "/new-app/index.html",
     "main.8732a99e.css.map": "/new-app/static/css/main.8732a99e.css.map",
-    "main.8ba5521d.js.map": "/new-app/static/js/main.8ba5521d.js.map"
+    "main.59164b08.js.map": "/new-app/static/js/main.59164b08.js.map"
   },
   "entrypoints": [
     "static/css/main.8732a99e.css",
-    "static/js/main.8ba5521d.js"
+    "static/js/main.59164b08.js"
   ]
 }
