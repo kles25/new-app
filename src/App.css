@@ -49,8 +49,7 @@ body {
 .header-holder {
     padding: 0vh 2vh;
     border: 1px solid #fff;
-    background-color: rgba(212, 212, 212, 0.5);
-    box-shadow: 0px 0px 5px 1px rgb(190, 190, 190);
+    background-color: #b3b3b3cc;
 }
 
 .home-logo {
@@ -76,7 +75,7 @@ body {
 .home-navbar-link {
     text-align: center;
     text-decoration: none;
-    color: #f7b80b;
+    color: #001F4B;
     cursor: pointer;
     transition: all 1s;
     font-size: 2.2vh;
@@ -92,8 +91,7 @@ body {
 .footer-holder {
     padding: 0vh 2vh;
     border: 1px solid #fff;
-    background-color: rgba(212, 212, 212, 0.5);
-    box-shadow: 0px 0px 5px 1px #bebebe;
+    background-color: #b3b3b3cc;
 }
 
 .footer-logo {
@@ -117,7 +115,7 @@ body {
     font-family: 'chronosfer-demo';
     font-size: 2.2vh;
     text-decoration: none;
-    color: #f7b80b;
+    color: #001F4B;
     cursor: pointer;
     transition: all 1s;
 }
@@ -137,7 +135,7 @@ body {
     font-family: 'icons_social_media';
     font-size: 3vh;
     text-decoration: none;
-    color: #f7b80b;
+    color: #001F4B;
     margin-left: 3vh;
     transition: all 1s;
 }
@@ -159,7 +157,7 @@ body {
     width: 40vw;
     height: 84vh;
     margin: 4vh auto;
-    background-color: rgba(179, 179, 179, 0.8);
+    background-color: #b3b3b3cc;
     box-shadow: 0px 0px 7px 1px #747474;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
