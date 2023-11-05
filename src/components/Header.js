@@ -13,10 +13,10 @@ function Header() {
                     <div className="pages-col-5"></div>
                     <div className="pages-col-4 pages-navbar">
                         <div className="pages-row navbar-holder">
-                            <nav className=""><a className="home-navbar-link" ><Link to="/">HOME</Link></a></nav>
-                            <nav className=""><a className="home-navbar-link" ><Link to="/about">ABOUT</Link></a></nav>
-                            <nav className=""><a className="home-navbar-link" ><Link to="/contact">CONTACT</Link></a></nav>
-                            <nav className=""><a className="home-navbar-link" ><Link to="/news">NEWS</Link></a></nav>
+                            <nav className="home-navbar-link"><Link to="/">HOME</Link></nav>
+                            <nav className="home-navbar-link"><Link to="/about">ABOUT</Link></nav>
+                            <nav className="home-navbar-link"><Link to="/contact">CONTACT</Link></nav>
+                            <nav className="home-navbar-link"><Link to="/news">NEWS</Link></nav>
                         </div>
                     </div>
                 </div>
