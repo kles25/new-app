@@ -6,7 +6,7 @@ function SignupPage() {
             <div className="background-gradient">
                 <div className="home-container-fluid">
                     <div className="section-type-form">
-                        <h1>REGISTRATION</h1>
+                        <h1 className="title-form">REGISTRATION</h1>
                         <form className="pages-row" action="">
                             <div className="pages-col-12">
                                 <label className="label-form">First Name</label>
@@ -29,10 +29,10 @@ function SignupPage() {
                             <div className="pages-col-12">
                                 <label className="label-form">Gender</label>
                             </div>
-                            <div className="pages-col-12">
-                                <input type="radio" name="gender" value="male" className="input-form" />Male<br />
-                                <input type="radio" name="gender" value="female" className="input-form" />Female<br />
-                                <input type="radio" name="gender" value="other" className="input-form" />Other
+                            <div className="pages-col-12" style={{ paddingTop: "1vh", paddingBottom: "2vh" }}>
+                                <input type="radio" name="gender" value="male" className="input-form-radio" /><span className="input-radio-span">MALE</span>
+                                <input type="radio" name="gender" value="female" className="input-form-radio" /><span className="input-radio-span">FEMALE</span>
+                                <input type="radio" name="gender" value="other" className="input-form-radio" /><span className="input-radio-span">OTHER</span>
                             </div>
                             <div className="pages-col-12">
                                 <label className="label-form">E-mail</label>

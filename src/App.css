@@ -157,15 +157,108 @@ body {
 .section-type-form {
     padding: 4vh;
     width: 40vw;
-    height: 80vh;
-    margin: 8vh auto;
-    border: 1px solid #7c7c7c;
-    background-color: rgba(0, 0, 0, 0.2);
+    height: 84vh;
+    margin: 4vh auto;
+    background-color: rgba(179, 179, 179, 0.8);
     box-shadow: 0px 0px 7px 1px #747474;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.section-type-form2 {
+    padding: 20vh 4vh;
+    width: 40vw;
+    height: 84vh;
+    margin: 4vh auto;
+    background-color: rgba(179, 179, 179, 0.8);
+    box-shadow: 0px 0px 7px 1px #747474;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 /* CSS FOR FORM HERE */
 
+.title-form {
+    text-align: center;
+    font-family: 'space_age';
+    font-size: 5vh;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+    color: #001F4B;
+    text-shadow: 0px 0px 3px #344052;
+}
+
+.label-form {
+    font-family: 'chronosfer-demo';
+    font-size: 2vh;
+    text-transform: uppercase;
+    color: #001F4B;
+    text-shadow: 0px 0px 1px #344052;
+}
+
+.input-form {
+    width: 100%;
+    padding: 1vh 1vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-family: 'chronosfer-demo';
+    font-size: 2vh;
+    text-transform: uppercase;
+    border: 1px solid #001F4B;
+    background-color: #ECECEC;
+    border: transparent;
+    transition: all 1s;
+}
+
+
+.input-form-radio {
+    margin: 1vh 0vh;
+    padding-top: 1vh;
+}
+
+.input-radio-span {
+    font-family: 'chronosfer-demo';
+    font-size: 2vh;
+    text-transform: uppercase;
+    padding-left: 1vh;
+    padding-right: 3vh;
+    padding-bottom: 1vh;
+    color: #001F4B;
+}
+
+.input-form::placeholder {
+    font-family: 'chronosfer-demo';
+    font-size: 2vh;
+    text-transform: uppercase;
+    color: #344052;
+}
+
+.button-input-form {
+    width: 100%;
+    padding: 1vh 1vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-family: 'chronosfer-demo';
+    font-size: 2vh;
+    text-transform: uppercase;
+    background-color: #ECECEC;
+    border: transparent;
+    color: #001F4B;
+    cursor: pointer;
+    transition: all 1s;
+    text-shadow: 0px 0px 1px #344052;
+}
+
+.button-input-form:hover {
+    background-color: #001F4B;
+    color: #ECECEC;
+    text-shadow: 0px 0px 1px #ECECEC;
+}
+
+input[type="date"] {
+    color: #344052;
+
+}
 
 
 /* CSS COLUMN HERE */
