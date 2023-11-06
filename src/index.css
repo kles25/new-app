@@ -35,19 +35,19 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 .5vh grey;
+    box-shadow: inset 0 0 .5vh rgba(128, 128, 128, 0);
     border-radius: 1vh;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #ECECEC;
+    background: #001F4B;
     border-radius: 1vh;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #ECECEC;
+    background: #001F4B;
 }
 
 /* CONTAINER CSS HERE */
@@ -200,6 +200,7 @@ body {
     box-shadow: 0px 0px 7px 1px #747474;
 }
 
+
 /* CSS FOR FORM HERE */
 
 .title-form {
@@ -223,15 +224,13 @@ body {
 .input-form {
     width: 100%;
     padding: 1vh 1vh;
-    margin-top: 1vh;
-    margin-bottom: 2vh;
     font-family: 'chronosfer-demo';
     font-size: 2vh;
-    text-transform: uppercase;
     border: 1px solid #001F4B;
     background-color: #ECECEC;
     border: transparent;
     transition: all 1s;
+    color: #344052;
 }
 
 
@@ -253,7 +252,10 @@ body {
 .input-form::placeholder {
     font-family: 'chronosfer-demo';
     font-size: 2vh;
-    text-transform: uppercase;
+    color: #344052;
+}
+
+.input-form option {
     color: #344052;
 }
 
@@ -265,25 +267,52 @@ body {
     font-family: 'chronosfer-demo';
     font-size: 2vh;
     text-transform: uppercase;
-    background-color: #ECECEC;
+    background-color: #001F4B;
     border: transparent;
-    color: #001F4B;
+    color: #ECECEC;
     cursor: pointer;
     transition: all 1s;
     text-shadow: 0px 0px 1px #344052;
+    border: 1px solid #fff;
 }
 
 .button-input-form:hover {
-    background-color: #001F4B;
-    color: #ECECEC;
-    text-shadow: 0px 0px 1px #ECECEC;
+    background-color: #ECECEC;
+    color: #001F4B;
+    text-shadow: 0px 0px 1px #344052;
+    border: 1px solid #001F4B;
 }
 
 input[type="date"] {
     color: #344052;
-
+    text-transform: uppercase;
 }
 
+.link-back {
+    font-family: 'chronosfer-demo';
+    font-size: 2vh;
+    color: #001F4B;
+}
+
+.link-back a {
+    text-decoration: none;
+    color: #001F4B;
+    text-shadow: 0px 0px 1px;
+}
+
+.input-error {
+    font-family: 'chronosfer-demo';
+    font-size: 1.5vh;
+    color: #4b0000;
+    text-shadow: 0px 0px 3px #4b0000;
+    text-transform: uppercase;
+}
+
+.input-note {
+    font-family: 'chronosfer-demo';
+    font-size: 1.5vh;
+    color: #001F4B;
+}
 
 /* CSS COLUMN HERE */
 
@@ -299,6 +328,7 @@ input[type="date"] {
 .pages-col-12 {
     position: relative;
     width: 100%;
+    margin-bottom: 1vh;
 }
 
 .pages-col-1 {
