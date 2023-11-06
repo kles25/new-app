@@ -1,9 +1,14 @@
-import React from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 
 function NewsPage() {
     return (
-        <div className="section-type-whole">NEWS</div>
+        <>
+            <Header></Header>
+            <div className="section-type-whole">NEWS</div>
+            <Footer></Footer>
+        </>
     )
 }
 

@@ -1,8 +1,14 @@
-import React from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
 
 function AboutPage() {
   return (
-    <div className="section-type-whole">ABOUT</div>
+    <>
+      <Header></Header>
+      <div className="section-type-whole">ABOUT</div>
+      <Footer></Footer>
+    </>
   )
 }
 
